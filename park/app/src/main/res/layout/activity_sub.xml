@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/Contents"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/rectangular" />
+
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="Contents"
+            android:textColor="#06135F"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/chapter_box"
+                        android:orientation="horizontal"
+                        android:padding="15dp"
+                        android:weightSum="100">
+
+                        <Button
+                            android:id="@+id/my_word1"
+                            android:layout_width="263dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:background="#00000000"
+                            android:text="  My Word"
+                            android:textColor="#06135F"
+                            android:textSize="27sp" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="20"
+                            android:background="@drawable/nextpage_design" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/chapter_box"
+                        android:orientation="horizontal"
+                        android:padding="15dp"
+                        android:weightSum="100">
+
+                        <Button
+                            android:id="@+id/web_1"
+                            android:layout_width="263dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:background="#00000000"
+                            android:text="  dictionary"
+                            android:textColor="#06135F"
+                            android:textSize="27sp" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="20"
+                            android:background="@drawable/nextpage_design" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/chapter_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/chapter_box"
+                        android:orientation="horizontal"
+                        android:padding="15dp"
+                        android:weightSum="100">
+
+                        <Button
+                            android:id="@+id/start_chapter1"
+                            android:layout_width="263dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:background="#00000000"
+                            android:text="  CHAPTER 1"
+                            android:textColor="#06135F"
+                            android:textSize="27sp" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="56dp"
+                            android:layout_weight="20"
+                            android:background="@drawable/nextpage_design" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/chapter_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter2"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 2"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/chapter_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter3"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 3"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/chapter_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter4"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 4"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/chapter_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter5"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 5"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/chapter_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter6"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 6"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/chapter_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter7"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 7"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/chapter_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/chapter_box"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/start_chapter8"
+                        android:layout_width="263dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:background="#00000000"
+                        android:text="  CHAPTER 8"
+                        android:textColor="#06135F"
+                        android:textSize="27sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/nextpage_design" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

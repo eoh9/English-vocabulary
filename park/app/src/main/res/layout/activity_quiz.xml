@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    // layout_width와 layout_height를 이용해서 전체크기를 지정.
+    <RelativeLayout
+        android:layout_width="416dp"
+        android:layout_height="585dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="16dp">
+        // 앱에서 구현할 부분을 레이아웃의 가로와 세로의 크기를 지정, textQuestionNo 변수를 생성.
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question: 1/n"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:id="@+id/textQuestionNo"/>
+        // 왼쪽 상단 부분에 "Question: 1/n"으로 이름 생성, 사이즈 선택, 색과 크기 결정.
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textQuestionNo"
+            android:layout_marginTop="5dp"
+            android:text="Score: 0"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+        // 왼쪽 상단에서 두번째 부분에 "Score: 0"으로 이름 생성, 사이즈 선택, 색과 크기 결정.
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:15"
+            android:layout_alignParentEnd="true"
+            android:textSize="37sp"
+            android:textColor="@color/black"
+            android:id="@+id/textTimer"/>
+        // 오른쪽 상단에 "00:15"으로 카운터 생성, 사이즈 선택, 색과 크기 결정.
+
+        <TextView
+            android:id="@+id/textQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question will be here.."
+            android:layout_above="@id/radioGroup"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
+        //중간 부분에 "Question will be here.."으로 이름 생성, 사이즈 선택, 색과 크기 결정.
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            // 중간 부분에 RadioGroup을 이용해서 question option 생성.
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 1"
+                android:textSize="20sp"/>
+            //  RadioButton을 이용해서 Option 1 버튼을 생성.
+
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 2"
+                android:textSize="20sp"/>
+            //  RadioButton을 이용해서 Option 2 버튼을 생성.
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3"
+                android:textSize="20sp"/>
+            //  RadioButton을 이용해서 Option 3 버튼을 생성.
+
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 4"
+                android:textSize="20sp"/>
+            //  RadioButton을 이용해서 Option 4 버튼을 생성.
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioGroup"
+            android:layout_marginTop="20dp"
+            android:text="NEXT"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:backgroundTint="#06135F"
+            android:textStyle="italic" />
+        //하단 부분에 "Question will be here.."으로 이름 생성, 사이즈 선택, 색과 크기 결정
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
